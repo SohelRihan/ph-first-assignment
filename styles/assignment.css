@@ -78,6 +78,9 @@
 /* web-dev styles */
 
 .web-dev-container{
+    width: 1140px;
+    height: 1500px;
+    margin: 0 auto;
     margin-top: 74px;
     margin-bottom: 88px;
     padding: 80px 97px;
