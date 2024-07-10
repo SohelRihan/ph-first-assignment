@@ -128,3 +128,44 @@
 .web-system-section{
     margin: 11px 100px 0px 32px;
 }
+
+/* my inspiration styles */
+
+.inspiration-container{
+    margin-bottom: 150px;
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+.video-portion{
+    /* margin-top: 48px; */
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.video-class{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
