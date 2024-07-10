@@ -81,7 +81,8 @@
     margin-top: 74px;
     margin-bottom: 88px;
     padding: 80px 97px;
-    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 .web-dev-title{
     font-size: 32px;
@@ -92,7 +93,7 @@
     font-size: 16px;
     font-weight: 400;
 }
-.main-container{
+.coding-container{
     margin-top: 48px;
     padding: 80px 97px;
     display: flex;
@@ -110,6 +111,17 @@
     margin-left: 70px;
 }
 .web-system-container{
+    padding: 48px;
+    margin-top: 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+#web-system-img{
+    margin-left: 100px;
+}
+.web-system-section{
+    margin: 11px 100px 0px 32px;
 }
