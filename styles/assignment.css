@@ -133,10 +133,11 @@
 
 .inspiration-container{
     /* margin-bottom: 150px; */
-    width: 1140px;
+    width: 1350px;
     height: 777px;
     margin: 0 auto;
     margin-bottom: 150px;
+    padding: 0;
 }
 .inspiration-title{
     font-size: 32px;
@@ -151,7 +152,7 @@
 }
 .video-portion{
     /* margin-top: 48px; */
-    width: 1140px;
+    width: 1340px;
     height: 614px;
     padding: 32px;
     margin: 0 auto;
@@ -165,7 +166,7 @@
     align-items: flex-start;
 }
 .video-class{
-    width: 1076px;
+    width: 1276px;
     height: 550px;
     border-radius: 16px;
 }
@@ -173,7 +174,7 @@
 /* my current target styles */
 
 .current-target-container{
-    width: 1140px;
+    width: 1350px;
     height: 463px;
     margin: 0 auto;
     padding: 0;
@@ -182,7 +183,7 @@
 .language-container{
     display: flex;
     /* justify-content: space-evenly; */
-    width: 1140px;
+    width: 1350px;
     height: 335px;
     margin: 0 auto;
     margin-top: 48px;
@@ -244,7 +245,7 @@
     background-image: url('../assets/handshake.jpg');
     background-size: cover;
     background-position: center;
-    width: 1140px;
+    width: 1300px;
     height: 220px;
     display: flex;
     flex-direction: column;
@@ -320,7 +321,7 @@
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
-    padding: 32px 150px 32px 150px;
+    padding: 32px 250px 32px 150px;
     margin: 0 auto;
 
 }
@@ -328,4 +329,10 @@
     font-size: 20px;
     font-weight: 600;
     color: rgb(13, 19, 33);
+}
+
+.scroll-to-footer{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
