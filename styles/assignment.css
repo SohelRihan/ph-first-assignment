@@ -132,11 +132,11 @@
 /* my inspiration styles */
 
 .inspiration-container{
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     width: 1140px;
     height: 777px;
     margin: 0 auto;
-    border: 2px solid red;
+    margin-bottom: 150px;
 }
 .inspiration-title{
     font-size: 32px;
@@ -168,4 +168,145 @@
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+}
+
+/* my current target styles */
+
+.current-target-container{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 110px;
+}
+.language-container{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 1140px;
+    height: 335px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+}
+
+.target-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.html-part{
+    width: 364px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-part{
+    width: 364px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.javascript-part{
+    width: 364px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.language-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.language-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+.language-link{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 19, 33);
+    color:rgb(13, 19, 33) ; 
+}
+
+/* support styles */
+
+.support-container{
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.support-instruction{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.support-upper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0 auto;
+}
+.support-down-container{
+    width: 684px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.support-input{
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    margin-right: 16px;
+}
+.support-submit{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
