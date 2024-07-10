@@ -19,6 +19,26 @@
   .text-center{
     text-align: center;
   }
+  .all-btn{
+    padding: 20px 30px;
+    background-color: white;
+ }
+ .all-anchor{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+ }
+ .second-section-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px; 
+}
+.second-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+} 
 
   /* header section */
 
@@ -72,12 +92,24 @@
     font-size: 16px;
     font-weight: 400;
 }
-.coding-title{
-    font-size: 24px;
-    font-weight: 700;
-    font-family: Azeret Mono;
+.main-container{
+    margin-top: 48px;
+    padding: 80px 97px;
+    display: flex;
+    justify-content: space-between;
+   
 }
-.coding-description{
-    font-size: 16px;
-    font-weight: 400;
-} 
+.coding-section{
+    padding: 48px;
+    border-radius: 16px;
+    /* background-color: antiquewhite; */
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+#code-img{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.web-system-container{
+    display: flex;
+    justify-content: space-between;
+}
